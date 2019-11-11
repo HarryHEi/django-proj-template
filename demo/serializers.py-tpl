@@ -1,0 +1,9 @@
+from rest_framework.serializers import ModelSerializer
+
+from .models import Demo
+
+
+class DemoSerializer(ModelSerializer):
+    class Meta:
+        model = Demo
+        fields = '__all__'

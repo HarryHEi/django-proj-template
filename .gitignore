@@ -1,0 +1,7 @@
+venv/*
+logs/*
+.idea/*
+*/migrations/*
+media/*
+html/*
+__pycache__

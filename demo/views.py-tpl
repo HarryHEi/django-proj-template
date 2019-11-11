@@ -1,0 +1,9 @@
+from rest_framework.viewsets import ModelViewSet
+
+from .models import Demo
+from .serializers import DemoSerializer
+
+
+class DemoViewSet(ModelViewSet):
+    queryset = Demo.objects.all()
+    serializer_class = DemoSerializer
