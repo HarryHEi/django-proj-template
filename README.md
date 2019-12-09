@@ -23,7 +23,7 @@ django-admin startproject --template https://github.com/HarryHEi/django-proj-tem
 
 ## 目录结构
 
-conf: 包含nginx和supervisor常用配置
-demo: 一个示例app
-logs: 日志目录
-proj: Django配置所在目录
++ conf: 包含nginx和supervisor常用配置
++ demo: 一个示例app
++ logs: 日志目录
++ proj: Django配置所在目录
