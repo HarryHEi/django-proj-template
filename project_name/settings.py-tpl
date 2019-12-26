@@ -100,7 +100,10 @@ else:
             'PORT': config.getint('mysql', 'port'),
             'OPTIONS': {
                 'charset': 'utf8mb4',
-            }
+            },
+            'TEST': {
+                'CHARSET': 'utf8mb4',
+            },
         }
     }
 
